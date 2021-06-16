@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/laysakura/serde-encrypt/blob/master/LICENSE-MIT)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](https://github.com/laysakura/serde-encrypt/blob/master/LICENSE-APACHE)
 
-[RUST SGX SDK](https://github.com/apache/incubator-teaclave-sgx-sdk) compatible version of [`serde-encrypt` crate](https://github.com/laysakura/serde-encrypt).
+[Rust SGX SDK](https://github.com/apache/incubator-teaclave-sgx-sdk) compatible version of [`serde-encrypt` crate](https://github.com/laysakura/serde-encrypt).
 
 This repository only provides SGX-specific implementations.
 
