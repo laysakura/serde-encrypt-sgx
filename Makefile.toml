@@ -11,12 +11,6 @@ script = ['''
 cargo fmt --all
 ''']
 
-[tasks.lint]
-script = ['''
-#!/usr/bin/env bash -eux
-RUSTFLAGS='-D warnings' cargo clippy --workspace --all-targets --all-features
-''']
-
 [tasks.build-sgx]
 script = [
   '''

@@ -24,8 +24,6 @@ jobs:
         make:
           - name: format
             task: format
-          - name: lint
-            task: lint
           - name: build-sgx
             task: build-sgx
             rust-free: true  # Rust is inside sgx-rust docker image
