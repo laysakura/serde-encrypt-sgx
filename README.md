@@ -11,6 +11,13 @@ This repository only provides SGX-specific implementations.
 
 Refer to [`serde-encrypt` crate](https://github.com/laysakura/serde-encrypt) for documentation, issues, and so on.
 
+## Installation
+
+```toml Cargo.toml
+[dependencies]
+serde-encrypt-sgx = {tag = "(git tag)", git = "https://github.com/laysakura/serde-encrypt-sgx.git"}
+```
+
 ## License
 
 Licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or [MIT license](LICENSE-MIT) at your option.
